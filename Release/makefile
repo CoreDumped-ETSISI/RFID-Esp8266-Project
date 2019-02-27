@@ -9,8 +9,9 @@ RM := rm
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir.mk
--include src/subdir.mk
+-include libraries/SPI/subdir.mk
 -include libraries/PubSubClient/src/subdir.mk
+-include libraries/MFRC522/src/subdir.mk
 -include libraries/ESP8266WiFi/src/subdir.mk
 -include libraries/ESP8266WebServer/src/detail/subdir.mk
 -include libraries/ESP8266WebServer/src/subdir.mk

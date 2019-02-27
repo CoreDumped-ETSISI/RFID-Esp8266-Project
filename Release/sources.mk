@@ -41,7 +41,8 @@ core/core/umm_malloc \
 libraries/ESP8266WebServer/src \
 libraries/ESP8266WebServer/src/detail \
 libraries/ESP8266WiFi/src \
+libraries/MFRC522/src \
 libraries/PubSubClient/src \
+libraries/SPI \
 . \
-src \
 

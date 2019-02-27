@@ -1,2 +1,3 @@
-rfid_access_controll_esp8266/core*
-rfid_access_controll_esp8266/Release*
+core*
+.settings*
+Release*
