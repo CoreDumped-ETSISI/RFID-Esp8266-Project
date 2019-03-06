@@ -137,7 +137,7 @@ sloeber.ino.cpp.o: ../sloeber.ino.cpp \
  /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/require_cpp11.h \
  /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/deprecated.h \
  /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/SPI/SPI.h \
- ../rfid_access_controll_esp8266.ino
+ ../rfid_access_controll_esp8266.ino ../mqtt.ino ../rfid.ino ../wifi.ino
 
 /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/cores/esp8266/Arduino.h:
 
@@ -416,3 +416,9 @@ sloeber.ino.cpp.o: ../sloeber.ino.cpp \
 /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/SPI/SPI.h:
 
 ../rfid_access_controll_esp8266.ino:
+
+../mqtt.ino:
+
+../rfid.ino:
+
+../wifi.ino:
