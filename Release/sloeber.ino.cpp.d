@@ -133,11 +133,18 @@ sloeber.ino.cpp.o: ../sloeber.ino.cpp \
  /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/WiFiServerSecureBearSSL.h \
  /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/WiFiClientSecure.h \
  /home/ubuntu/sloeber/arduinoPlugin/libraries/PubSubClient/2.7.0/src/PubSubClient.h \
+ /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/ESP8266WiFiMulti.h \
+ /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/ESP8266WiFi.h \
+ /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/WiFiUdp.h \
+ /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/cores/esp8266/Udp.h \
+ /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/include/slist.h \
  /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/MFRC522.h \
  /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/require_cpp11.h \
  /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/deprecated.h \
  /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/SPI/SPI.h \
- ../rfid_access_controll_esp8266.ino ../mqtt.ino ../rfid.ino ../wifi.ino
+ /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/cores/esp8266/FS.h \
+ ../rfid_access_controll_esp8266.ino ../mqtt.ino ../ntp.ino ../rfid.ino \
+ ../spiffs.ino ../wifi.ino
 
 /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/cores/esp8266/Arduino.h:
 
@@ -407,6 +414,16 @@ sloeber.ino.cpp.o: ../sloeber.ino.cpp \
 
 /home/ubuntu/sloeber/arduinoPlugin/libraries/PubSubClient/2.7.0/src/PubSubClient.h:
 
+/home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/ESP8266WiFiMulti.h:
+
+/home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/ESP8266WiFi.h:
+
+/home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/WiFiUdp.h:
+
+/home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/cores/esp8266/Udp.h:
+
+/home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/ESP8266WiFi/src/include/slist.h:
+
 /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/MFRC522.h:
 
 /home/ubuntu/sloeber/arduinoPlugin/libraries/MFRC522/1.4.3/src/require_cpp11.h:
@@ -415,10 +432,16 @@ sloeber.ino.cpp.o: ../sloeber.ino.cpp \
 
 /home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/libraries/SPI/SPI.h:
 
+/home/ubuntu/sloeber/arduinoPlugin/packages/esp8266/hardware/esp8266/2.5.0/cores/esp8266/FS.h:
+
 ../rfid_access_controll_esp8266.ino:
 
 ../mqtt.ino:
 
+../ntp.ino:
+
 ../rfid.ino:
+
+../spiffs.ino:
 
 ../wifi.ino:

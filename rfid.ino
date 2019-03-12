@@ -9,6 +9,11 @@ MFRC522 rfid(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;
 byte nuidPICC[4];
 
+struct access{
+	byte nuidPICC[4];
+
+};
+
 void setup_rfid(){
 	SPI.begin(); // Init SPI bus
 	rfid.PCD_Init(); // Init MFRC522
@@ -71,9 +76,9 @@ void loop_rfid(){
 		Serial.print(F("In hex: "));
 		printHex(rfid.uid.uidByte, rfid.uid.size);
 		Serial.println();
-		Serial.print(F("In dec: "));
-		printDec(rfid.uid.uidByte, rfid.uid.size);
-		Serial.println();
+		//Serial.print(F("In dec: "));
+		//printDec(rfid.uid.uidByte, rfid.uid.size);
+		//Serial.println();
 	}
 	else Serial.println(F("Card read previously."));
 
